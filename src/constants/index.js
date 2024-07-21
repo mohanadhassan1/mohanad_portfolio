@@ -202,7 +202,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Movie Time",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -211,17 +211,255 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link_view: "https://react-movie-time-gamma.vercel.app/",
+    source_code_link_github:
+      "https://github.com/mohanadhassan1/React_Movie_Time",
+  },
+  {
+    name: "Admin Dashboard",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "materialui",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link_view: "https://admin-dashboard-pi-seven.vercel.app/",
+    source_code_link_github:
+      "https://github.com/mohanadhassan1/admin-dashboard",
+  },
+  {
+    name: "Handle Products",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "next",
+        color: "text-white",
+      },
+      {
+        name: "redux",
+        color: "text-violet-500",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "design_pattern",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "auth",
+        color: "text-red-700",
+      },
+    ],
+    image: carrent,
+    source_code_link_view: "https://handle-products.vercel.app/",
+    source_code_link_github:
+      "https://github.com/mohanadhassan1/handle_products",
+  },
+  {
+    name: "Blog Web Application",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "next",
+        color: "text-white",
+      },
+      {
+        name: "redux",
+        color: "text-violet-500",
+      },
+      {
+        name: "shadcnui",
+        color: "text-white",
+      },
+      {
+        name: "design_pattern",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "auth",
+        color: "text-red-700",
+      },
+    ],
+    image: carrent,
+    source_code_link_view: "https://blog-application-tawny.vercel.app/",
+    source_code_link_github:
+      "https://github.com/mohanadhassan1/blog-application",
+  },
+  {
+    name: "Video Chat",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "next",
+        color: "text-white",
+      },
+      {
+        name: "shadcnui",
+        color: "text-white",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "clerk",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "stream",
+        color: "text-violet-500",
+      },
+      {
+        name: "design_pattern",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link_view: "https://videochat-three.vercel.app/",
+    source_code_link_github: "https://github.com/mohanadhassan1/videochat",
+  },
+  {
+    name: "Jumia Clone",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "text-violet-500",
+      },
+      {
+        name: "node",
+        color: "green-text-gradient",
+      },
+      {
+        name: "express",
+        color: "text-gray-400",
+      },
+      {
         name: "mongodb",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "auth",
+        color: "text-red-700",
+      },
+    ],
+    image: carrent,
+    source_code_link_view: "https://jumia-main.vercel.app/",
+    source_code_link_github: "https://github.com/mohanadhassan1/jumiaClone",
+  },
+  {
+    name: "Task Management",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "next",
+        color: "text-white",
+      },
+      {
+        name: "nest",
+        color: "text-red-700",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "materialui",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link_view: "https://taskmanagement-nextjs.vercel.app/",
+    source_code_link_github:
+      "https://github.com/mohanadhassan1/cool_code_frontend",
+  },
+  {
+    name: "Click Shop",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "angular",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "text-violet-500",
+      },
+      {
+        name: "sass",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link_view:
+      "https://mohanadhassan-angular-clickshop.netlify.app/",
+    source_code_link_github:
+      "https://github.com/mohanadhassan1/Angular_Click_Shop",
   },
+  {
+    name: "TED Talks",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "bootstrap",
+        color: "text-violet-500",
+      },
+    ],
+    image: carrent,
+    source_code_link_view: "https://mohanadhassan-tedx.netlify.app/",
+    source_code_link_github:
+      "https://github.com/mohanadhassan1/TED-Responsive-Web-Design",
+  },
+  {
+    name: "Shopify E-Commerce",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "vanilla_javascript",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link_view:
+      "https://mohanadhassan-shopify-native-js.netlify.app/",
+    source_code_link_github:
+      "https://github.com/mohanadhassan1/Native-E-commerce",
+  },
+  
   {
     name: "Job IT",
     description:

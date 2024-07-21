@@ -90,8 +90,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone git@github.com:adrianhajdin/project_3D_developer_portfolio.git
-cd project_3D_developer_portfolio
+git clone https://github.com/mohanadhassan1/mohanad_portfolio.git
+cd mohanad_portfolio
 ```
 
 **Installation**
@@ -129,9 +129,9 @@ Open [http://localhost:5173](http://localhost:5173) in your browser to view the 
 
 ```javascript
 import {
-  mobile,
+  frontend,
   backend,
-  creator,
+  software,
   web,
   javascript,
   typescript,
@@ -146,8 +146,8 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
-  tesla,
+  ITI,
+  ain_shams,
   shopify,
   carrent,
   jobit,
@@ -159,6 +159,10 @@ export const navLinks = [
   {
     id: "about",
     title: "About",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "work",
@@ -176,16 +180,16 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Frontend Developer",
+    icon: frontend,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Software Engineer",
+    icon: software,
   },
 ];
 
@@ -246,50 +250,24 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    company_name: "ITI",
+    icon: ITI,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Nov 2023 - Mar 2024",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Computer Science",
+    company_name: "Ain Shams University",
+    icon: ain_shams,
+    iconBg: "#383E56",
+    date: "Sept 2017 - July 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -328,7 +306,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Movie Time",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -337,58 +315,253 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
         name: "tailwind",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link_view: "https://react-movie-time-gamma.vercel.app/",
+    source_code_link_github:
+      "https://github.com/mohanadhassan1/React_Movie_Time",
   },
   {
-    name: "Job IT",
+    name: "Admin Dashboard",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
+        name: "firebase",
+        color: "orange-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "materialui",
+        color: "blue-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: carrent,
+    source_code_link_view: "https://admin-dashboard-pi-seven.vercel.app/",
+    source_code_link_github:
+      "https://github.com/mohanadhassan1/admin-dashboard",
   },
   {
-    name: "Trip Guide",
+    name: "Handle Products",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "nextjs",
+        name: "next",
+        color: "text-white",
+      },
+      {
+        name: "redux",
+        color: "text-violet-500",
+      },
+      {
+        name: "tailwind",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
+        name: "design_pattern",
+        color: "pink-text-gradient",
       },
       {
-        name: "css",
+        name: "auth",
+        color: "text-red-700",
+      },
+    ],
+    image: carrent,
+    source_code_link_view: "https://handle-products.vercel.app/",
+    source_code_link_github:
+      "https://github.com/mohanadhassan1/handle_products",
+  },
+  {
+    name: "Blog Web Application",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "next",
+        color: "text-white",
+      },
+      {
+        name: "redux",
+        color: "text-violet-500",
+      },
+      {
+        name: "shadcnui",
+        color: "text-white",
+      },
+      {
+        name: "design_pattern",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "auth",
+        color: "text-red-700",
+      },
+    ],
+    image: carrent,
+    source_code_link_view: "https://blog-application-tawny.vercel.app/",
+    source_code_link_github:
+      "https://github.com/mohanadhassan1/blog-application",
+  },
+  {
+    name: "Video Chat",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "next",
+        color: "text-white",
+      },
+      {
+        name: "shadcnui",
+        color: "text-white",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "clerk",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "stream",
+        color: "text-violet-500",
+      },
+      {
+        name: "design_pattern",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: carrent,
+    source_code_link_view: "https://videochat-three.vercel.app/",
+    source_code_link_github: "https://github.com/mohanadhassan1/videochat",
+  },
+  {
+    name: "Jumia Clone",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "text-violet-500",
+      },
+      {
+        name: "node",
+        color: "green-text-gradient",
+      },
+      {
+        name: "express",
+        color: "text-gray-400",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "auth",
+        color: "text-red-700",
+      },
+    ],
+    image: carrent,
+    source_code_link_view: "https://jumia-main.vercel.app/",
+    source_code_link_github: "https://github.com/mohanadhassan1/jumiaClone",
+  },
+  {
+    name: "Task Management",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "next",
+        color: "text-white",
+      },
+      {
+        name: "nest",
+        color: "text-red-700",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "materialui",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link_view: "https://taskmanagement-nextjs.vercel.app/",
+    source_code_link_github:
+      "https://github.com/mohanadhassan1/cool_code_frontend",
+  },
+  {
+    name: "Click Shop",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "angular",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "text-violet-500",
+      },
+      {
+        name: "sass",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link_view:
+      "https://mohanadhassan-angular-clickshop.netlify.app/",
+    source_code_link_github:
+      "https://github.com/mohanadhassan1/Angular_Click_Shop",
+  },
+  {
+    name: "TED Talks",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "bootstrap",
+        color: "text-violet-500",
+      },
+    ],
+    image: carrent,
+    source_code_link_view: "https://mohanadhassan-tedx.netlify.app/",
+    source_code_link_github:
+      "https://github.com/mohanadhassan1/TED-Responsive-Web-Design",
+  },
+  {
+    name: "Shopify E-Commerce",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "vanilla_javascript",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link_view:
+      "https://mohanadhassan-shopify-native-js.netlify.app/",
+    source_code_link_github:
+      "https://github.com/mohanadhassan1/Native-E-commerce",
   },
 ];
 
