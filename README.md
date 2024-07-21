@@ -42,7 +42,7 @@ By developing this project, you will gain hands-on experience in crafting immers
 
 If you're getting started and need assistance or face any bugs, join our active WhatsApp community. It's a place where people help each other out.
 
-<a href="https://wa.me/+201099785268" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg" /></a>
+<a href="https://wa.me/+201099785268" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg" height="30" width="40" /></a>
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
