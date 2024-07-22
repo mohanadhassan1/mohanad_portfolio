@@ -5,6 +5,11 @@ import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
 
+import { BsFillPersonFill } from "react-icons/bs";
+import { GrMail } from "react-icons/gr";
+import { FaLinkedin } from "react-icons/fa";
+import { AiFillGithub } from "react-icons/ai";
+
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
@@ -27,11 +32,9 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${
-        styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20 ${
-        scrolled ? "bg-primary" : "bg-transparent"
-      }`}
+      className={`${styles.paddingX
+        } w-full flex items-center py-5 fixed top-0 z-20 ${scrolled ? "bg-primary" : "bg-transparent"
+        }`}
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link
@@ -49,13 +52,47 @@ const Navbar = () => {
           </p>
         </Link>
 
+
+        <div className="gap-8 items-center mr-2 sm:flex hidden">
+          <a
+            href="https://wa.me/+201099785268"
+            target="_blank"
+            rel="noreferrer"
+            className="flex gap-2 items-center"
+          >
+            <BsFillPersonFill className="icon" />
+            <span>+201099785268</span>
+          </a>
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=mohanadhassan246@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <GrMail className="icon" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/mohanadhassan1/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaLinkedin className="icon" />
+          </a>
+          <a
+            href="https://github.com/mohanadhassan1"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <AiFillGithub className="icon" />
+          </a>
+
+        </div>
+
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
-              className={`${
-                active === nav.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
+              className={`${active === nav.title ? "text-white" : "text-secondary"
+                } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
@@ -72,17 +109,15 @@ const Navbar = () => {
           />
 
           <div
-            className={`${
-              !toggle ? "hidden" : "flex"
-            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+            className={`${!toggle ? "hidden" : "flex"
+              } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
             <ul className='list-none flex justify-end items-start flex-1 flex-col gap-4'>
               {navLinks.map((nav) => (
                 <li
                   key={nav.id}
-                  className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                    active === nav.title ? "text-white" : "text-secondary"
-                  }`}
+                  className={`font-poppins font-medium cursor-pointer text-[16px] ${active === nav.title ? "text-white" : "text-secondary"
+                    }`}
                   onClick={() => {
                     setToggle(!toggle);
                     setActive(nav.title);

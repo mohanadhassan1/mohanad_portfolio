@@ -54,6 +54,7 @@ If you're getting started and need assistance or face any bugs, join our active 
 - Vite
 - Tailwind CSS
 - Framer Motion
+- React Icons
 
 ## <a name="features">🔋 Features</a>
 
@@ -256,7 +257,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Nov 2023 - Mar 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using MERN stack, and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -269,10 +270,13 @@ const experiences = [
     iconBg: "#383E56",
     date: "Sept 2017 - July 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Study Software Engineer field by taking courses like:",
+      "Design Pattern",
+      "Data Structure",
+      "Object-oriented Programming",
+      "System Analysis",
+      "Database",
+      "Software Engineering",
     ],
   },
 ];
@@ -308,7 +312,7 @@ const projects = [
   {
     name: "Movie Time",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A movie streaming platform created with React JS, styled with TailwindCSS for a modern look and feel, providing users with an intuitive interface to browse and watch movies.",
     tags: [
       {
         name: "react",
@@ -319,7 +323,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: carrent,
+    image: movieTime,
     source_code_link_view: "https://react-movie-time-gamma.vercel.app/",
     source_code_link_github:
       "https://github.com/mohanadhassan1/React_Movie_Time",
@@ -327,7 +331,7 @@ const projects = [
   {
     name: "Admin Dashboard",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An administrative dashboard application developed with ReactJS and Material UI, leveraging Firebase for real-time data synchronization and user authentication.",
     tags: [
       {
         name: "react",
@@ -342,7 +346,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: carrent,
+    image: adminDashboard,
     source_code_link_view: "https://admin-dashboard-pi-seven.vercel.app/",
     source_code_link_github:
       "https://github.com/mohanadhassan1/admin-dashboard",
@@ -350,7 +354,7 @@ const projects = [
   {
     name: "Handle Products",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An e-commerce management application built with NextJS and Redux Toolkit, styled with TailwindCSS, implementing design patterns for code efficiency, and providing authentication for secure user access.",
     tags: [
       {
         name: "next",
@@ -373,7 +377,7 @@ const projects = [
         color: "text-red-700",
       },
     ],
-    image: carrent,
+    image: handleProducts,
     source_code_link_view: "https://handle-products.vercel.app/",
     source_code_link_github:
       "https://github.com/mohanadhassan1/handle_products",
@@ -381,7 +385,7 @@ const projects = [
   {
     name: "Blog Web Application",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A dynamic blog platform developed with NextJS, using Redux Toolkit for state management, styled with Shadcn UI, utilizing JSONplaceholder for dummy data, and featuring lazy loading for optimized performance.",
     tags: [
       {
         name: "next",
@@ -404,7 +408,7 @@ const projects = [
         color: "text-red-700",
       },
     ],
-    image: carrent,
+    image: blogApplication,
     source_code_link_view: "https://blog-application-tawny.vercel.app/",
     source_code_link_github:
       "https://github.com/mohanadhassan1/blog-application",
@@ -412,7 +416,7 @@ const projects = [
   {
     name: "Video Chat",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A video communication application using NextJS and Shadcn UI, enhanced with TailwindCSS for styling, integrated with Clerk for authentication, and powered by Stream for real-time video chat functionality.",
     tags: [
       {
         name: "next",
@@ -439,14 +443,14 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: videoChat,
     source_code_link_view: "https://videochat-three.vercel.app/",
     source_code_link_github: "https://github.com/mohanadhassan1/videochat",
   },
   {
     name: "Jumia Clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An e-commerce platform replicating Jumia, built with ReactJS and Redux Toolkit, styled with TailwindCSS, and powered by NodeJS and MongoDB for efficient and scalable backend support.",
     tags: [
       {
         name: "react",
@@ -477,14 +481,14 @@ const projects = [
         color: "text-red-700",
       },
     ],
-    image: carrent,
+    image: jumia,
     source_code_link_view: "https://jumia-main.vercel.app/",
     source_code_link_github: "https://github.com/mohanadhassan1/jumiaClone",
   },
   {
     name: "Task Management",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A task management web application using NextJS and NestJS, backed by MongoDB for data storage, and featuring Material UI for a sleek and responsive user interface.",
     tags: [
       {
         name: "next",
@@ -503,7 +507,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: carrent,
+    image: taskManagement,
     source_code_link_view: "https://taskmanagement-nextjs.vercel.app/",
     source_code_link_github:
       "https://github.com/mohanadhassan1/cool_code_frontend",
@@ -511,7 +515,7 @@ const projects = [
   {
     name: "Click Shop",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An online shopping platform built with Angular TS and Bootstrap, offering a responsive and user-friendly interface for a seamless shopping experience.",
     tags: [
       {
         name: "angular",
@@ -526,7 +530,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: clickShop,
     source_code_link_view:
       "https://mohanadhassan-angular-clickshop.netlify.app/",
     source_code_link_github:
@@ -535,14 +539,14 @@ const projects = [
   {
     name: "TED Talks",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A clone of the TED website using Bootstrap for responsive design, providing a platform for users to browse and view a collection of talks and presentations.",
     tags: [
       {
         name: "bootstrap",
         color: "text-violet-500",
       },
     ],
-    image: carrent,
+    image: tedClone,
     source_code_link_view: "https://mohanadhassan-tedx.netlify.app/",
     source_code_link_github:
       "https://github.com/mohanadhassan1/TED-Responsive-Web-Design",
@@ -550,14 +554,14 @@ const projects = [
   {
     name: "Shopify E-Commerce",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A shopping platform developed using Vanilla JavaScript, HTML5, and CSS3, providing a fundamental yet effective e-commerce experience for users.",
     tags: [
       {
         name: "vanilla_javascript",
         color: "orange-text-gradient",
       },
     ],
-    image: carrent,
+    image: shopify,
     source_code_link_view:
       "https://mohanadhassan-shopify-native-js.netlify.app/",
     source_code_link_github:
@@ -945,7 +949,7 @@ Models and Assets used in the project can be found [here](https://drive.google.c
 
 Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with detailed explanations, cool features, and exercises to boost your skills. Give it a go!
 
-<a href="https://jsmastery.pro/next14" target="_blank">
+<a href="https://mohanad.vercel.app/" target="_blank">
 <img src="https://github.com/sujatagunale/EasyRead/assets/151519281/557837ce-f612-4530-ab24-189e75133c71" alt="Project Banner">
 </a>
 
@@ -956,7 +960,7 @@ Enjoyed creating this project? Dive deeper into our PRO courses for a richer lea
 
 And if you're hungry for more than just a course and want to understand how we learn and tackle tech challenges, hop into our personalized masterclass. We cover best practices, different web skills, and offer mentorship to boost your confidence. Let's learn and grow together!
 
-<a href="https://www.jsmastery.pro/masterclass" target="_blank">
+<a href="https://mohanad.vercel.app/" target="_blank">
 <img src="https://github.com/sujatagunale/EasyRead/assets/151519281/fed352ad-f27b-400d-9b8f-c7fe628acb84" alt="Project Banner">
 </a>
 
@@ -970,3 +974,4 @@ And if you're hungry for more than just a course and want to understand how we l
 npm create vite@latest ./ -- template react npm install -D tailwindcss postcss autoprefixer npm install --legacy-peer-deps -D postcss autoprefixer npx tailwindcss init
 
 npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom npm install --legacy-peer-deps three
+npm install react-icons --save

@@ -22,13 +22,23 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
 import ITI from "./company/ITI.png";
 import ain_shams from "./company/ain_shams.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+import movieTime from "./movieTime.png";
+import videoChat from "./videoChat.png";
+import tedClone from "./tedClone.png";
+import shopify from "./shopify.png";
+import jumia from "./jumia.png";
+import clickShop from "./clickShop.png";
+import blogApplication from "./blogApplication.png";
+import adminDashboard from "./adminDashboard.png";
+import handleProducts from "./handleProducts.png";
+import taskManagement from "./taskManagement.png";
 
 export {
   logo,
@@ -53,10 +63,19 @@ export {
   typescript,
   threejs,
   meta,
-  shopify,
   ITI,
   ain_shams,
   carrent,
   jobit,
   tripguide,
+  shopify,
+  movieTime,
+  videoChat,
+  tedClone,
+  jumia,
+  clickShop,
+  blogApplication,
+  adminDashboard,
+  handleProducts,
+  taskManagement,
 };
