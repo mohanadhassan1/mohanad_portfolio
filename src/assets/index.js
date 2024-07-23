@@ -32,7 +32,7 @@ import tripguide from "./tripguide.png";
 import movieTime from "./movieTime.png";
 import videoChat from "./videoChat.png";
 import tedClone from "./tedClone.png";
-import shopify from "./shopify.png";
+import shopify_ecommerce from "./shopify_ecommerce.png";
 import jumia from "./jumia.png";
 import clickShop from "./clickShop.png";
 import blogApplication from "./blogApplication.png";
@@ -68,7 +68,7 @@ export {
   carrent,
   jobit,
   tripguide,
-  shopify,
+  shopify_ecommerce,
   movieTime,
   videoChat,
   tedClone,

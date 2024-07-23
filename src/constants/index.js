@@ -18,7 +18,7 @@ import {
   meta,
   ITI,
   ain_shams,
-  shopify,
+  shopify_ecommerce,
   carrent,
   jobit,
   tripguide,
@@ -439,7 +439,7 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: shopify,
+    image: shopify_ecommerce,
     source_code_link_view:
       "https://mohanadhassan-shopify-native-js.netlify.app/",
     source_code_link_github:
