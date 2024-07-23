@@ -346,7 +346,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: adminDashboard,
+    image: admin_dashboard,
     source_code_link_view: "https://admin-dashboard-pi-seven.vercel.app/",
     source_code_link_github:
       "https://github.com/mohanadhassan1/admin-dashboard",

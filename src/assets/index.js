@@ -36,7 +36,7 @@ import shopify_ecommerce from "./shopify_ecommerce.png";
 import jumia from "./jumia.png";
 import clickShop from "./clickShop.png";
 import blogApplication from "./blogApplication.png";
-import adminDashboard from "./adminDashboard.png";
+import admin_dashboard from "./admin_dashboard.png";
 import handleProducts from "./handleProducts.png";
 import taskManagement from "./taskManagement.png";
 
@@ -75,7 +75,7 @@ export {
   jumia,
   clickShop,
   blogApplication,
-  adminDashboard,
+  admin_dashboard,
   handleProducts,
   taskManagement,
 };
